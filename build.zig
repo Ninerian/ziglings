@@ -14,7 +14,7 @@ const Exercise = struct {
     /// main_file must have the format key_name.zig.
     /// The key will be used as a shorthand to build
     /// just one example.
-    main_file: []const u8,
+    main_file: []const u8, 
 
     /// This is the desired output of the program.
     /// A program passes if its output ends with this string.
